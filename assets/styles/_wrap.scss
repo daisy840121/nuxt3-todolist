@@ -1,0 +1,19 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+  @include levelCenter;
+  align-items: center;
+}
+
+
+.todoList{
+  width:50%;
+  min-height: 80vh;
+  border-radius:50px;
+  padding:20px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content:space-between;
+}

@@ -1,0 +1,12 @@
+@mixin levelCenter{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@mixin btn{
+  padding: 0.275rem 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}

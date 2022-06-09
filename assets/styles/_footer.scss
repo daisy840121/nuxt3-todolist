@@ -1,0 +1,28 @@
+.todoList-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .todoList-footer-text{
+    display: flex;
+    align-items: center;
+    input{
+      width: 20px;
+      height: 20px;
+    }
+    span{
+      padding-left: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+  }
+
+  button{
+    @include btn;
+      border: 1px solid #707070;
+      &:hover{
+        background-color: transparent;
+      }
+  }
+
+}

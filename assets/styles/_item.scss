@@ -1,0 +1,44 @@
+.todoList-item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #707070;
+  padding: 15px 0px;
+  .todoList-text{
+    display: flex;
+    align-items: center;
+    input[type= "checkbox" ]{
+      width: 20px;
+      height: 20px;
+      margin-right: 12px;
+    }
+    input[type= "text" ]{
+      min-width:300px;
+    }
+    span{
+      padding-left: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+  }
+  .todoList-button{
+    button{
+      margin: 0px 5px;
+      @include btn;
+    }
+    .todoList-button-edit{
+      background-color: lightblue;
+      border: 1px solid black;
+      &:hover{
+        background-color: transparent;
+      }
+    }
+    .todoList-button-del{
+      background-color: #ff8177;
+      border: 1px solid black;
+       &:hover{
+        background-color: transparent;
+      }
+    }
+  }
+}
